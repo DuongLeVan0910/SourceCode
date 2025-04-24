@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="QLSV Gantt Project" company="" webLink="http://" view-date="2025-03-05" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3316" locale="en_US">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Name" width="200" order="0"/>
+        <field id="tpd4" name="Begin date" width="75" order="1"/>
+        <field id="tpd5" name="End date" width="75" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars base-id="none">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="881c8e4d165c4190bb18a2b7c11c581e" name="Bắt đầu thực tập &amp; nhận đề tài" meeting="false" start="2025-03-05" duration="1" complete="0" expand="true">
+            <depend id="1" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="1" uid="1d42040567ea42319d80480561ca6baf" name="Xác định Requirements" meeting="false" start="2025-03-06" duration="3" complete="0" expand="true">
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2" uid="11caae7493da47dda527fefd5cf01688" name="Thiết kế UI (Figma)" meeting="false" start="2025-03-09" duration="3" complete="2" expand="true">
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="3" uid="b705acfda9454e92bf9cd41dc79ba09d" name="Thiết kế database" meeting="false" start="2025-03-12" duration="3" complete="0" expand="true">
+            <depend id="4" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="4" uid="4abaa47927184c16b497514ef191b47b" name="Báo cáo tuần 1" meeting="false" start="2025-03-15" duration="1" complete="0" expand="true">
+            <depend id="5" type="1" difference="0" hardness="Strong"/>
+        </task>
+        <task id="5" uid="dbaa9d7e18534bb1a1ee64df58e83cf3" name="Code FE Form đăng ký, đăng nhập" meeting="false" start="2025-03-15" duration="4" complete="0" expand="true">
+            <depend id="6" type="1" difference="0" hardness="Strong"/>
+        </task>
+        <task id="6" uid="78f88ba7b45540eab9d35d5cc1d4419f" name="Code FE Home Page" meeting="false" start="2025-03-15" duration="4" complete="0" expand="true">
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="7" uid="e279e35ddd2c448091b3cb66e254743b" name="Code BE Form đăng ký" meeting="false" start="2025-03-19" duration="3" complete="0" expand="true">
+            <depend id="8" type="1" difference="0" hardness="Strong"/>
+        </task>
+        <task id="8" uid="b4e49aefa6ad4cbfa59f0418ed572807" name="Code BE Form đăng nhập" meeting="false" start="2025-03-19" duration="3" complete="0" expand="true">
+            <depend id="40" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="40" uid="539b24615b5d43e9b0ed94d4a7d21edd" name="Báo cáo tuần 2" meeting="false" start="2025-03-22" duration="1" complete="0" expand="true">
+            <depend id="9" type="1" difference="0" hardness="Strong"/>
+        </task>
+        <task id="9" uid="e89f5f6bd1204fc980859af8e44c4053" name="Code FE danh sách sinh viên" meeting="false" start="2025-03-22" duration="2" complete="0" expand="true">
+            <depend id="10" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="10" uid="b92206ae23e644a3a79e371b489d1ae8" name="Code BE Thêm/Xóa sinh viên" meeting="false" start="2025-03-24" duration="3" complete="0" expand="true">
+            <depend id="11" type="1" difference="0" hardness="Strong"/>
+        </task>
+        <task id="11" uid="812f22250e33409bb9c9d45f0cc6813e" name="Code BE Sửa/Tìm sinh viên" meeting="false" start="2025-03-24" duration="3" complete="0" expand="true">
+            <depend id="12" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="12" uid="7d80095132954469a44844e44e4e1260" name="Test các chức năng CRUD &amp; login" meeting="false" start="2025-03-27" duration="2" complete="0" expand="true">
+            <depend id="13" type="1" difference="0" hardness="Strong"/>
+        </task>
+        <task id="13" uid="7d74ecacfbc241ce902e2ea7b9a25eb4" name="Viết báo cáo 2 tuần đầu" meeting="false" start="2025-03-27" duration="2" complete="0" expand="true">
+            <depend id="14" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="14" uid="f5512d4c7b8e41a499ea34bcd7b999d1" name="Báo cáo tuần 3" meeting="false" start="2025-03-29" duration="1" complete="0" expand="true">
+            <depend id="15" type="1" difference="0" hardness="Strong"/>
+        </task>
+        <task id="15" uid="6299f06b2a2b48609ed8cc43ac91ea38" name="Code FE nhóm sinh viên" meeting="false" start="2025-03-29" duration="2" complete="0" expand="true">
+            <depend id="16" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="16" uid="31c327dffba541c09ef4b8fa3a7016d2" name="Code BE chia ngẫu nhiên" meeting="false" start="2025-03-31" duration="2" complete="0" expand="true">
+            <depend id="17" type="1" difference="0" hardness="Strong"/>
+        </task>
+        <task id="17" uid="bf0b97deef174f93979c9bba104ed1fd" name="Code BE chia theo giảng viên" meeting="false" start="2025-03-31" duration="2" complete="0" expand="true">
+            <depend id="18" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="18" uid="ac9cc8a5963a446798c05db26e926b6f" name="Test chia nhóm" meeting="false" start="2025-04-02" duration="2" complete="0" expand="true"/>
+        <task id="19" uid="7dd6de0f8e1f4da3aa3575bec5d86eaf" name="Viết báo cáo tuần 3" meeting="false" start="2025-04-03" duration="2" complete="0" expand="true">
+            <depend id="20" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="20" uid="0dfc07fad675462ba9d7021328ca208e" name="Báo cáo tuần 4" meeting="false" start="2025-04-05" duration="1" complete="0" expand="true">
+            <depend id="21" type="1" difference="0" hardness="Strong"/>
+        </task>
+        <task id="21" uid="307dd3164c5c44669d44795d215e84e6" name="Code BE cho SV tự chọn nhóm" meeting="false" start="2025-04-05" duration="3" complete="0" expand="true">
+            <depend id="22" type="1" difference="0" hardness="Strong"/>
+        </task>
+        <task id="22" uid="14a852f2b7434438ac0569fe797f15a3" name="Code BE đăng ký chuyển nhóm" meeting="false" start="2025-04-05" duration="3" complete="0" expand="true">
+            <depend id="23" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="23" uid="142a236d2bba4372ac9435c0881d60a7" name="Test chọn nhóm, chuyển nhóm" meeting="false" start="2025-04-08" duration="2" complete="0" expand="true">
+            <depend id="24" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="24" uid="3b51a2bfbbda496f9978dd45ff295b24" name="Viết báo cáo tuần 4" meeting="false" start="2025-04-10" duration="2" complete="0" expand="true">
+            <depend id="25" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="25" uid="14313431671f496597bd2ce9d11408fb" name="Báo cáo tuần 5" meeting="false" start="2025-04-12" duration="1" complete="0" expand="true">
+            <depend id="26" type="1" difference="0" hardness="Strong"/>
+        </task>
+        <task id="26" uid="76e409da97a64f0a994c6047c7cb0441" name="Code FE điểm danh" meeting="false" start="2025-04-12" duration="2" complete="0" expand="true">
+            <depend id="27" type="1" difference="0" hardness="Strong"/>
+        </task>
+        <task id="27" uid="4292217ab1ac44fc89ea13703691c472" name="Code FE ca học" meeting="false" start="2025-04-12" duration="2" complete="0" expand="true">
+            <depend id="28" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="28" uid="b8e623fd5938444e846ce21dc4183e7c" name="Code BE điểm danh" meeting="false" start="2025-04-14" duration="2" complete="0" expand="true">
+            <depend id="29" type="1" difference="0" hardness="Strong"/>
+        </task>
+        <task id="29" uid="b442507c88d544c8b8fcf769e0c10b42" name="Code BE ca học" meeting="false" start="2025-04-14" duration="2" complete="0" expand="true">
+            <depend id="30" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="30" uid="cb301bc0a16b416aa7efde9bc23a0689" name="Test điểm danh" meeting="false" start="2025-04-16" duration="2" complete="0" expand="true"/>
+        <task id="31" uid="b491ac1f5df44c1f84ec0d56f933d5c5" name="Test ca học" meeting="false" start="2025-04-17" duration="2" complete="0" expand="true">
+            <depend id="32" type="1" difference="0" hardness="Strong"/>
+        </task>
+        <task id="32" uid="42354c6e3b774b68a22a6e625e851202" name="Viết báo cáo tuần 5" meeting="false" start="2025-04-17" duration="2" complete="0" expand="true">
+            <depend id="33" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="33" uid="5f4c941bdb84418e9ef8721205d917e5" name="Báo cáo tuần 6" meeting="false" start="2025-04-19" duration="1" complete="1" expand="true">
+            <depend id="34" type="1" difference="0" hardness="Strong"/>
+        </task>
+        <task id="34" uid="416626ff6ed04b29a79a3c2c9c202531" name="Code FE hộp thư" meeting="false" start="2025-04-19" duration="2" complete="0" expand="true">
+            <depend id="35" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="35" uid="c617b211b29d42bd9deadad0789bbfa7" name="Code BE hộp thư" meeting="false" start="2025-04-21" duration="2" complete="0" expand="true">
+            <depend id="36" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="36" uid="6dead72dadd943978e3e764f460bc67a" name="Thống kê lỗi &amp; hoàn thiện biên bản test" meeting="false" start="2025-04-23" duration="2" complete="0" expand="true">
+            <depend id="37" type="1" difference="0" hardness="Strong"/>
+        </task>
+        <task id="37" uid="1f06feacb7014f90a98631acc5e7dfc6" name="Viết báo cáo tuần 6" meeting="false" start="2025-04-23" duration="2" complete="0" expand="true">
+            <depend id="38" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="38" uid="39e262d8abdd4638bdb59bdb03570a64" name="Hoàn thiện báo cáo &amp; demo" meeting="false" start="2025-04-25" duration="2" complete="0" expand="true"/>
+        <task id="39" uid="ab11bf23eb764e7db3ca183539d16121" name="Báo cáo tuần 7" meeting="false" start="2025-04-26" duration="2" complete="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
